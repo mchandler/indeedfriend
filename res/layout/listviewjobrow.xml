@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:id="@+id/jobTable"
+    android:stretchColumns="0"
+    android:shrinkColumns="0"
+    android:padding="10dp">
+    
+    <TableRow>
+    	
+	    <TextView
+	        android:id="@+id/jobTitle"
+	        android:textSize="14dp"
+	        android:textStyle="bold"
+	        android:layout_weight="1"
+	        android:textColor="#99FFFF" />
+    	
+ 	</TableRow>
+    
+    <TableRow>
+    	
+	    <TextView
+	        android:id="@+id/company"
+	        android:textSize="12dp"
+	        android:layout_gravity="left"
+	        android:textColor="#FFFFFF" />
+	    	
+	    <TextView
+	        android:id="@+id/whereAt"
+	        android:textSize="12dp"
+	        android:layout_gravity="right"
+	        android:textColor="#FFFFFF" />
+    
+    </TableRow>
+    
+    <TableRow>
+    	
+	    <TextView
+	        android:id="@+id/source"
+	        android:textSize="12dp"
+	        android:layout_gravity="left"
+	        android:textColor="#FFFFFF" />
+	    	
+	    <TextView
+	        android:id="@+id/postedOn"
+	        android:textSize="12dp"
+	        android:layout_gravity="right"
+	        android:textColor="#FFFFFF" />
+    
+    </TableRow>
+    
+</TableLayout>

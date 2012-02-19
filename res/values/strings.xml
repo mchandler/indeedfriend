@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ruby on Rails Job Finder</string>
+    <string name="app_icon_label">Rails Job Finder</string>
+    <string name="ads_pub_id">a14f07b97d923df</string>
+    <string name="city_label">City:</string>
+    <string name="state_label">State:</string>
+    <string name="postal_label">Postal:</string>
+    <string name="save_button">Save Location</string>
+    <string name="menu_location">My Location</string>
+    <string name="menu_jobs">View Jobs</string>
+    <string name="menu_about">About</string>
+
+</resources>
